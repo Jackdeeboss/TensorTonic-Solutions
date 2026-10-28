@@ -28,7 +28,7 @@ def mean_median_mode(x: list) -> dict:
             freq[e] = 1
     largest_freq = 0
     mode = None
-    for key in sorted(freq):  # Sort keys in ascending order
+    for key in sorted(freq):
         value = freq[key]
         if value > largest_freq:
             largest_freq = value
