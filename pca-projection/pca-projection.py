@@ -22,4 +22,4 @@ def pca_projection(X: list, k: int) -> list:
     X_proj = X_centered @ W
 
     
-    return X_proj
+    return X_proj.tolist()
